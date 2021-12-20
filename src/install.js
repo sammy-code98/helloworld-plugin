@@ -3,7 +3,7 @@ const HelloWorldSimple = {
   // Let's register our component globally
 
   install(Vue, options) {
-    Vue.component("HelloWorld", HelloWorld);
+    Vue.component("hello-world", HelloWorld);
   },
 };
 
