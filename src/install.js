@@ -2,7 +2,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 const HelloWorldSimple = {
   // Let's register our component globally
 
-  install(Vue, options) {
+  install(Vue) {
     Vue.component("hello-world", HelloWorld);
   },
 };
